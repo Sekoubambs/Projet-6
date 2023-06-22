@@ -1,0 +1,49 @@
+
+body {
+
+    background-color: aquamarine;
+   
+}
+
+.image {
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.mesure-nord {
+    color: blue;
+    position: absolute;
+    transform: translate(650px, 100px);
+    
+}
+
+.mesure-sud {
+    color: green;
+    position: absolute;
+    transform: translate(50px, 250px);
+}
+
+.mesure-est {
+    color: red;
+    position: absolute;
+    transform: translate(50px, 250px);
+}
+
+.mesure-ouest {
+    color: red;
+    position: absolute;
+    transform: translate(50px, 250px);
+}
+
+
+.mesure-centre {
+    color: red;
+    position: absolute;
+    transform: translate(50px, 250px);
+}
+
+
+
