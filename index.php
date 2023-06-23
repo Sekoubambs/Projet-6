@@ -71,18 +71,20 @@ $tab = [
 
 ?>
 
+
+<div class="container">
+
 <div class="bouton">
 
         <ul>
 
-            <a href="index.php?jour=lundi"><li>lundi</li></a>
-            <a href="index.php?jour=mardi"><li>mardi</li></a>
-            <a href="index.php?jour=mercredi"><li>mercredi</li></a>
-            <a href="index.php?jour=jeudi"><li>jeudi</li></a>
-            <a href="index.php?jour=vendredi"><li>vendredi</li></a>
-            <a href="index.php?jour=samedi"><li>samedi</li></a>
-            <a href="index.php?jour=dimanche"><li>dimanche</li></a>
-
+            <a href="index.php?jour=lundi"><button type="button">lundi</button></a>
+            <a href="index.php?jour=mardi"><button type="button">mardi</button></a>
+            <a href="index.php?jour=mercredi"><button type="button">mercredi</button></a>
+            <a href="index.php?jour=jeudi"><button type="button">jeudi</button></a>
+            <a href="index.php?jour=vendredi"><button type="button">vendredi</button></a>
+            <a href="index.php?jour=samedi"><button type="button">samedi</button></a>
+            <a href="index.php?jour=dimanche"><button type="button">dimanche</button></a>
         </ul>
 
 </div>
@@ -112,20 +114,15 @@ $tab = [
 </div>
 
 
-
-
-
-
-
-    </div>
-
-
     <div class="image">
 
         <img src="map.png" alt="map">
 
     </div>
    
+
+
+</div>
     
 
 </section>    

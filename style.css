@@ -1,49 +1,56 @@
 
+
+
 body {
 
-    background-color: aquamarine;
-   
+  background-color: aquamarine;
+ 
+}
+
+.container {
+
+  position: relative;
 }
 
 .image {
 
-    display: flex;
-    justify-content: center;
-    position: relative;
-    
+  display: flex;
+  justify-content: center;
+  
+  
 }
 
+
 .mesure-nord {
-    color: blue;
-    position: absolute;
-    transform: translate(650px, 100px);
-    
+  color: blue;
+  position: absolute;
+  transform: translate(580px, 200px);
+  
 }
 
 .mesure-sud {
-    color: green;
-    position: absolute;
-    transform: translate(50px, 250px);
+  color: green;
+  position: absolute;
+  transform: translate(580px, 550px);
 }
 
 .mesure-est {
-    color: red;
-    position: absolute;
-    transform: translate(50px, 250px);
+  color: red;
+  position: absolute;
+  transform: translate(720px, 300px);
 }
 
 .mesure-ouest {
-    color: red;
-    position: absolute;
-    transform: translate(50px, 250px);
+  color: orangered;
+  position: absolute;
+  transform: translate(470px, 300px);
 }
 
 
 .mesure-centre {
-    color: red;
-    position: absolute;
-    transform: translate(50px, 250px);
+  color: brown;
+  position: absolute;
+  transform: translate(600px, 325px);
 }
-
 
 
